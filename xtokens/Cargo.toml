@@ -23,9 +23,9 @@ sp-std = { git = "https://github.com/paritytech/substrate", default-features = f
 cumulus-primitives-core = { default-features = false , git = "https://github.com/paritytech/cumulus", branch = "polkadot-v0.9.43" }
 
 # polkadot
-pallet-xcm = { git = "https://github.com/paritytech/polkadot", default-features = false , branch = "release-v0.9.43" }
-xcm = { git = "https://github.com/paritytech/polkadot", default-features = false , branch = "release-v0.9.43" }
-xcm-executor = { git = "https://github.com/paritytech/polkadot", default-features = false , branch = "release-v0.9.43" }
+pallet-xcm = { git = "https://github.com/rustninja/polkadot", default-features = false , branch = "release-v0.9.43" }
+xcm = { git = "https://github.com/rustninja/polkadot", default-features = false , branch = "release-v0.9.43" }
+xcm-executor = { git = "https://github.com/rustninja/polkadot", default-features = false , branch = "release-v0.9.43" }
 
 # orml
 orml-traits = { path = "../traits", default-features = false}
